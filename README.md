@@ -1,16 +1,3 @@
-//BaseDao
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-import com.just.entity.InsertKeyValues;
-import com.just.entity.SetKeyValues;
-import com.just.entity.WhereKeyValues;
-import com.just.util.DButil;
 
 public class BaseDao {
 	private Connection con;
