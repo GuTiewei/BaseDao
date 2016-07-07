@@ -1,5 +1,6 @@
 
 public class BaseDao {
+	// db con
 	private Connection con;
 
 	/**
